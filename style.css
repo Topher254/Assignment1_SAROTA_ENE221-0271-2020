@@ -1,0 +1,52 @@
+
+
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #302d2d;
+    font-size: 2rem;
+  }
+  
+  ul {
+    list-style-type: numbers;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  ul li {
+    background-color: #b2dddd;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: left;
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:disabled {
+    background-color: red;
+    cursor: not-allowed;
+  }
+  
